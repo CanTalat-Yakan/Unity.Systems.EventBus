@@ -1,0 +1,16 @@
+{
+    "name": "UnityEssentials.EventBus.Examples",
+    "rootNamespace": "UnityEssentials",
+    "references": [
+        "GUID:da6296e04585cba458d631aaaad9b218"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
