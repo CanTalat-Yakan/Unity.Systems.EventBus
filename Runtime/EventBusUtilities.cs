@@ -76,6 +76,9 @@ namespace UnityEssentials
         /// </summary>
         public static void ClearAllBuses()
         {
+            if(EventBusTypes == null || EventBusTypes.Count == 0)
+                return;
+
             Debug.Log("Clearing all buses...");
             for (int i = 0; i < EventTypes.Count; i++)
             {
