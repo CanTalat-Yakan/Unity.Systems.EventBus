@@ -2,7 +2,8 @@
     "name": "UnityEssentials.EventBus.Examples",
     "rootNamespace": "UnityEssentials",
     "references": [
-        "GUID:da6296e04585cba458d631aaaad9b218"
+        "GUID:da6296e04585cba458d631aaaad9b218",
+        "GUID:6e0673ce8d7371149ac9c15f75f1b48d"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
