@@ -46,7 +46,7 @@ A minimal, generic publish/subscribe utility intended for scene‑local messagin
   - `Register`, `Deregister`, and `Raise` only; no external dependencies
 
 ## Requirements
-- Unity 6000.0+ (per package manifest)
+- Unity 6000.0+
 - Add your event types and listener scripts to a scene
 - Uses `EventBusUtilities` to initialize and clear buses; it relies on type discovery for `IEvent` implementors
 
