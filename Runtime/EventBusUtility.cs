@@ -10,7 +10,7 @@ namespace UnityEssentials
     /// Utility class for initializing and managing event buses in Unity projects.
     /// Handles both runtime and editor-time behaviors.
     /// </summary>
-    public static class EventBusUtilities
+    public static class EventBusUtility
     {
         public static IReadOnlyList<Type> EventTypes { get; private set; }
         public static IReadOnlyList<Type> EventBusTypes { get; private set; }
@@ -47,7 +47,7 @@ namespace UnityEssentials
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
         public static void Initialize()
         {
-            EventTypes = PredefinedAssemblyUtilities.GetTypes(typeof(IEvent));
+            EventTypes = PredefinedAssemblyUtility.GetTypes(typeof(IEvent));
             EventBusTypes = InitializeAllBuses();
 
         }

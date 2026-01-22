@@ -116,7 +116,7 @@ Additional notes
 ## Files in This Package
 - `Runtime/EventBus.cs` – Generic bus with Register/Deregister/Raise and internal Clear
 - `Runtime/EventBinding.cs` – Binding with payload and no‑args actions, add/remove helpers; defines `IEvent`
-- `Runtime/EventBusUtilities.cs` – Type discovery, PlayerLoop/editor hooks, bus initialization, and global clear
+- `Runtime/EventBusUtility.cs` – Type discovery, PlayerLoop/editor hooks, bus initialization, and global clear
 - `Runtime/Examples/` – Simple usage examples
 - `Runtime/UnityEssentials.EventBus.asmdef` – Runtime assembly definition
 
