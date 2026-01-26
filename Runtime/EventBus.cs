@@ -24,7 +24,7 @@ namespace UnityEssentials
 
         private static void Clear()
         {
-            Debug.Log($"Clearing {typeof(T).Name} bindings");
+            // Debug.Log($"Clearing {typeof(T).Name} bindings");
             s_bindings.Clear();
         }
     }
