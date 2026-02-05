@@ -47,7 +47,7 @@ namespace UnityEssentials
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
         public static void Initialize()
         {
-            EventTypes = PredefinedAssemblyUtility.GetTypes(typeof(IEvent));
+            EventTypes = PredefinedAssemblies.GetTypes(typeof(IEvent));
             EventBusTypes = InitializeAllBuses();
 
         }
