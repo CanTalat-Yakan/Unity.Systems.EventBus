@@ -1,5 +1,5 @@
 {
-    "name": "UnityEssentials.EventBus",
+    "name": "UnityEssentials.Systems.EventBus",
     "rootNamespace": "UnityEssentials",
     "references": [
         "GUID:6e0673ce8d7371149ac9c15f75f1b48d"
